@@ -6,6 +6,6 @@ public class Main {
 
         int n = sc.nextInt();
 
-        System.out.println( n >= 80 ? "pass" : (n-80) + " more score");
+        System.out.println( n >= 80 ? "pass" : Math.abs(n-80) + " more score");
     }
 }
